@@ -1,15 +1,41 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import HomeCategory from '../components/HomeCategory';
+import products from '../utils/products.json';
 
-function Home() {
-	return (
-		<div>
-			<Layout>
-				<h1 className="text-center text-primary py-5">Home</h1>
-				<button className="btn btn-primary">Submit</button>
-			</Layout>
-		</div>
-	);
+class Home extends React.Component {
+	constructor() {
+		super();
+		this.state = {
+			categories: []
+		};
+	}
+	componentDidMount() {
+		const categories = Object.values(products);
+		this.setState({ categories });
+	}
+	render() {
+		return (
+			<div>
+				<Layout>
+					<div className="container">
+						<div className="row">
+							{this.state.categories.map((category, index) => {
+								return (
+									<HomeCategory
+										key={index}
+										image={category.image}
+										title={category.name}
+										description={category.description}
+									/>
+								);
+							})}
+						</div>
+					</div>
+				</Layout>
+			</div>
+		);
+	}
 }
 
 export default Home;
