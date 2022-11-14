@@ -16,11 +16,11 @@ class App extends React.Component {
 		return (
 			<div>
 				<Routes>
-					<Route exact path="/" element={<Home />} />
-					<Route path="/login" element={<Login />} />
+					<Route path="/" exact element={<Home />} />
 					<Route path="/about" element={<About />} />
+					<Route path="/login" element={<Login />} />
 					<Route path="/category/:categoryName" element={<Category />} />
-					<Route path="*" element={<Page404 />} />
+					<Route element={Page404} />
 				</Routes>
 			</div>
 		);

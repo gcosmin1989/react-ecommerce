@@ -2,13 +2,22 @@ import React, { Component } from 'react';
 import Layout from '../components/Layout';
 
 class Category extends Component {
-	render() {
+	constructor(props) {
+		super(props);
+		this.state = {
+			category: {}
+		};
+	}
+	componentDidMount() {
+		const { match } = this.props;
+		console.log(match);
 		console.log(this.props);
-		const routeParam = this.props.match.params.categoryName;
+	}
+	render() {
 		return (
 			<div>
 				<Layout>
-					<h1>{routeParam}</h1>
+					<h1>Category Page</h1>
 				</Layout>
 			</div>
 		);
