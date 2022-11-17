@@ -14,6 +14,7 @@ class Home extends React.Component {
 	componentDidMount() {
 		const categories = Object.values(products);
 		const categoryNames = Object.keys(products);
+
 		this.setState({ categories, categoryNames });
 	}
 	render() {

@@ -15,7 +15,7 @@ function Footer() {
 					Home
 				</Link>
 			</div>
-			<p className="text-center text-muted">@ {currentYear.getFullYear()} Company, Inc</p>
+			<p className="text-center text-muted">@ {currentYear.getFullYear()} Cosmin Shop</p>
 		</div>
 	);
 }
