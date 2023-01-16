@@ -5,8 +5,8 @@ import './Footer.css';
 function Footer() {
 	const currentYear = new Date();
 	return (
-		<div className="py-3 my-4">
-			<div className="nav justify-content-center border-bottom pb-3 mb-3 ">
+		<div className="py-0 my-4">
+			<div className="nav justify-content-center border-bottom pb-3  ">
 				<Link className=" nav-link px-2 text-muted" to="/about">
 					About
 				</Link>
