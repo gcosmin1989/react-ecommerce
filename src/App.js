@@ -6,17 +6,20 @@ import About from './pages/About';
 import Login from './pages/Login';
 import Page404 from './pages/Page404';
 import Category from './pages/Category';
+import { Component } from 'react';
+import { signInWithPopup } from 'firebase/auth';
 
-class App extends React.Component {
+class App extends Component {
 	constructor() {
 		super();
 		this.state = {};
 	}
+
 	render() {
 		return (
 			<div>
 				<Switch>
-					<Route path="/" exact component={Home} />
+					<Route path="/" component={Home} exact />
 					<Route path="/about" component={About} />
 					<Route path="/login" component={Login} />
 					<Route path="/category/:categoryName" component={Category} />
