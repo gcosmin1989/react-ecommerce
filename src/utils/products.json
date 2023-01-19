@@ -3,8 +3,8 @@
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
-                "price": 135,
+                "name": "Laptop-uri Home ",
+                "price": 1.800,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Rz8lVQa.jpg",
                 "size": 45,
@@ -38,9 +38,9 @@
                 "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
+        "image": "https://img.freepik.com/free-photo/close-up-minimalist-shot-generic-laptop-computer-working-accessories-resting-wooden-table_273609-1706.jpg?w=996&t=st=1673977833~exp=1673978433~hmac=d55dfb0279dafe7d8ac13d890fa60d5d4ce724af45ff9ea1178e63b7aa61404f",
+        "name": "Laptopuri",
+        "description": "Home, Business, Gaming, Ultraporabil"
     },
     "sweaters": {
         "items": [
@@ -93,9 +93,9 @@
                 "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovărașe elegănțele, slim, clasă superioară."
+        "image": "https://img.freepik.com/free-photo/mobile-phone-cases-mockup-product-showcase_53876-96025.jpg?w=1060&t=st=1673978058~exp=1673978658~hmac=e4bb5433594fdcb3c9394014b8495dca9ca0731633aa4dfc2d55090102d03ac1",
+        "name": "Telefoane",
+        "description": "iOS, Android, Single SIM, Dual SIM"
     },
     "pants": {
         "items": [
@@ -124,9 +124,9 @@
                 "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
+        "image": "https://img.freepik.com/free-photo/digital-tablet-with-white-screen-display-surrounded-with-office-supplies-coffee-cup-gray-backdrop_23-2148052593.jpg?w=996&t=st=1673978655~exp=1673979255~hmac=af5a470a6a625493d24b913fc424a57e35be54bd23d92844bd0eec3a03169dde",
+        "name": "Tablete",
+        "description": "Android, iPadOS, Microsoft Windows, iOS"
     },
     "jackets": {
         "items": [
@@ -155,9 +155,9 @@
                 "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
+        "image": "https://img.freepik.com/premium-photo/apple-watch-series-gray-background-new-smart-watches-from-company-apple-close-up_219766-2747.jpg?w=996",
+        "name": "Smartwatch-uri",
+        "description": "Casual, Elegant, Sport"
     },
     "tshirts": {
         "items": [
@@ -198,9 +198,9 @@
                 "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
             }
         ],
-        "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Și de băiețeală și de sport."
+        "image": "https://img.freepik.com/premium-photo/voice-controlled-smart-speaker_651412-4632.jpg?w=996",
+        "name": "Boxe Portabile",
+        "description": "JBL, Skull Candy, Bose, Sony"
     },
     "accesories": {
         "items": [
@@ -229,8 +229,8 @@
                 "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
             }
         ],
-        "image": "https://i.imgur.com/qw3wDj8.jpg",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+        "image": "https://img.freepik.com/premium-photo/group-gen-game-controllers_264404-193.jpg?w=996",
+        "name": "Console",
+        "description": "XBOX, Playstation"
     }
 }

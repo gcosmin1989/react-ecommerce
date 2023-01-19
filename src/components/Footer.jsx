@@ -14,6 +14,9 @@ function Footer() {
 				<Link className="nav-link px-2 text-muted" to="/">
 					Home
 				</Link>
+				<Link className="nav-link px-2 text-muted" to="/terms-conditions">
+					Terms & Conditions
+				</Link>
 			</div>
 			<p className="text-center text-muted">@ {currentYear.getFullYear()} Cosmin Shop</p>
 		</div>

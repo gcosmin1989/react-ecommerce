@@ -7,7 +7,7 @@ import Login from './pages/Login';
 import Page404 from './pages/Page404';
 import Category from './pages/Category';
 import { Component } from 'react';
-import { signInWithPopup } from 'firebase/auth';
+import TermsAndCond from './pages/TermsAndCond';
 
 class App extends Component {
 	constructor() {
@@ -22,6 +22,7 @@ class App extends Component {
 					<Route path="/" component={Home} exact />
 					<Route path="/about" component={About} />
 					<Route path="/login" component={Login} />
+					<Route path="/terms-conditions" component={TermsAndCond} />
 					<Route path="/category/:categoryName" component={Category} />
 					<Route component={Page404} />
 				</Switch>

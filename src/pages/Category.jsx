@@ -3,7 +3,6 @@ import Layout from '../components/Layout';
 
 class Category extends Component {
 	render() {
-		console.log(this.props);
 		const routeParam = this.props.match.params.categoryName;
 		return (
 			<div>

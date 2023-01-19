@@ -4,7 +4,6 @@ import './HomeCategory.css';
 
 function HomeCategory(props) {
 	const { image, title, description, routeName, name } = props;
-	console.log(title);
 
 	return (
 		<div className="container_all col-6 mb-4">
