@@ -4,6 +4,7 @@ import './Header.css';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
 import { signInWithGoogle } from '../firebase-init';
 import { Component } from 'react';
+import React from 'react';
 
 class Header extends Component {
 	render() {
