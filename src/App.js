@@ -6,6 +6,7 @@ import About from './pages/About';
 import Login from './pages/Login';
 import Page404 from './pages/Page404';
 import Category from './pages/Category';
+import Product from './pages/Product';
 import { Component } from 'react';
 import TermsAndCond from './pages/TermsAndCond';
 
@@ -24,6 +25,7 @@ class App extends Component {
 					<Route path="/login" component={Login} />
 					<Route path="/terms-conditions" component={TermsAndCond} />
 					<Route path="/category/:categoryName" component={Category} />
+					<Route path="/products/:categoryName/:productId" component={Product} />
 					<Route component={Page404} />
 				</Switch>
 			</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FacebookLoginButton, GoogleLoginButton } from 'react-social-login-buttons';
-import { signInWithGoogle, signInWithFacebook } from '../firebase-init';
+import { signInWithGoogle, signInWithFacebook, signOut } from '../firebase-init';
 import Layout from '../components/Layout';
 
 function Login() {
@@ -9,7 +9,9 @@ function Login() {
 			<div>
 				<h1>Login</h1>
 				<FacebookLoginButton onClick={signInWithFacebook} />
+
 				<GoogleLoginButton onClick={signInWithGoogle} />
+				<FacebookLoginButton onClick={signOut} />
 			</div>
 		</Layout>
 	);

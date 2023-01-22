@@ -18,6 +18,7 @@ export const signInWithGoogle = () => {
 			localStorage.setItem('email', email);
 			localStorage.setItem('profilePic', profilePic);
 			console.log(name);
+			window.location.href = '/';
 		})
 		.catch((error) => {
 			console.log(error);
@@ -28,7 +29,6 @@ const providerFB = new FacebookAuthProvider();
 export const signInWithFacebook = () => {
 	signInWithPopup(auth, providerFB)
 		.then((result) => {
-			console.log(result);
 			const name = result.user.displayName;
 			const email = result.user.email;
 			const profilePic = result.user.photoURL;
@@ -36,8 +36,13 @@ export const signInWithFacebook = () => {
 			localStorage.setItem('name', name);
 			localStorage.setItem('email', email);
 			localStorage.setItem('profilePic', profilePic);
+			window.location.href = '/';
 		})
 		.catch((error) => {
 			console.log(error);
 		});
+};
+export const signOut = function() {
+	localStorage.clear();
+	window.location.href = '/';
 };

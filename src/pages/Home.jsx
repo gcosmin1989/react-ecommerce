@@ -3,13 +3,13 @@ import Layout from '../components/Layout';
 import HomeCategory from '../components/HomeCategory';
 import products from '../utils/products.json';
 
-function Home({ signInWithPopup }) {
+function Home() {
 	const categories = Object.values(products);
 	const categoryNames = Object.keys(products);
 
 	return (
 		<div>
-			<Layout signInWithPopup={signInWithPopup}>
+			<Layout>
 				<div className="container">
 					<div className="row">
 						{categories.map((category, index) => {

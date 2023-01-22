@@ -1,0 +1,14 @@
+import React from 'react';
+import Layout from '../components/Layout';
+import products from '../utils/products.json';
+
+function Product(props) {
+	const productId = props.match.params.productId;
+	const category = props.match.params.categoryName;
+	const items = products[category].items;
+	console.log(items);
+
+	return <Layout />;
+}
+
+export default Product;
