@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import firebaseConfig from './configs/firebase';
-import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, signInWithPopup, FacebookAuthProvider } from 'firebase/auth';
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
@@ -18,6 +18,24 @@ export const signInWithGoogle = () => {
 			localStorage.setItem('email', email);
 			localStorage.setItem('profilePic', profilePic);
 			console.log(name);
+		})
+		.catch((error) => {
+			console.log(error);
+		});
+};
+
+const providerFB = new FacebookAuthProvider();
+export const signInWithFacebook = () => {
+	signInWithPopup(auth, providerFB)
+		.then((result) => {
+			console.log(result);
+			const name = result.user.displayName;
+			const email = result.user.email;
+			const profilePic = result.user.photoURL;
+
+			localStorage.setItem('name', name);
+			localStorage.setItem('email', email);
+			localStorage.setItem('profilePic', profilePic);
 		})
 		.catch((error) => {
 			console.log(error);

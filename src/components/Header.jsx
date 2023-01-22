@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/images/cosmin-logo.png';
 import './Header.css';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
-import { signInWithGoogle } from '../firebase-init';
 import { Component } from 'react';
 import React from 'react';
+import { signInWithGoogle, signInWithFacebook } from '../firebase-init';
 
 class Header extends Component {
 	render() {
@@ -15,9 +15,7 @@ class Header extends Component {
 				</Link>
 
 				<div>
-					<Link to="/login" onClick={signInWithGoogle}>
-						Login
-					</Link>
+					<Link to="/login">Login</Link>
 					<ShoppingCart />
 				</div>
 			</div>
