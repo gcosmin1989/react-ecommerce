@@ -12,7 +12,7 @@ function Product(props) {
 	return (
 		<Layout>
 			{product.name};
-			<img src={product.image} />
+			<img src={product.image} alt="" />
 		</Layout>
 	);
 }
