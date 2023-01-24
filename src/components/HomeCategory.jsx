@@ -20,5 +20,4 @@ function HomeCategory(props) {
 		</div>
 	);
 }
-
 export default HomeCategory;

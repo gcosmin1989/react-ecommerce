@@ -4,7 +4,6 @@ import './Header.css';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
 import React from 'react';
 import { signOut } from '../firebase-init';
-
 function Header() {
 	return (
 		<div className="header d-flex justify-content-between align-items-center container">
@@ -23,10 +22,10 @@ function Header() {
 			<div>
 				{localStorage.name ? (
 					<Link to="/" onClick={signOut}>
-						SignOut
+						Logout
 					</Link>
 				) : (
-					<Link to="/login">Login</Link>
+					<Link to="/login">LogIn</Link>
 				)}
 				<ShoppingCart />
 			</div>

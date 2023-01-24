@@ -6,9 +6,15 @@ function Product(props) {
 	const productId = props.match.params.productId;
 	const category = props.match.params.categoryName;
 	const items = products[category].items;
-	console.log(items);
+	const product = items.find((p) => p.id === +productId);
+	console.log(product);
 
-	return <Layout />;
+	return (
+		<Layout>
+			{product.name};
+			<img src={product.image} />
+		</Layout>
+	);
 }
 
 export default Product;
