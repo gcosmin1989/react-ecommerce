@@ -1,20 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { addToCart } from '../redux/action/cart';
 
-function ProductItem({ product, category }) {
+function ProductItem({ product, category, addToCartInjected }) {
+	let name = product.name;
+	let price = product.price;
+	let currency = product.currency;
+	let image = product.image;
 	return (
-		<div className=" container col-md-4 mb-4 mt-4 d-flex flex-column align-items-cente">
-			<img className="" src={product.image} alt="" />
-			<h3 className="text-center">{product.name}</h3>
+		<div className=" product-item col-4 d-flex flex-column align-items-center">
+			<Link to={`/products/${category}/${product.id}`}>Detalii Produs</Link>
+			<img className="" src={image} alt="" />
+			<h3 className="text-center">{name}</h3>
 			<h4 className="text-center">
-				{product.price} {product.currency}
+				{price} {currency}
 			</h4>
-			<div className="d-flex justify-content-center align-item-center" />
-			<Link to={`/products/${category}/${product.id}`}>
-				<button className="btn btn-link text-center">Cumpara!</button>
-			</Link>
+
+			<button
+				className="btn btn-outline-dark"
+				onClick={() => {
+					addToCartInjected({ product: { name, price, currency, image } });
+				}}
+			>
+				Adauga in cos
+			</button>
 		</div>
 	);
 }
 
-export default ProductItem;
+function mapDispatchToProps(dispatch) {
+	return {
+		addToCartInjected: (payload) => dispatch(addToCart(payload))
+	};
+}
+
+export default connect(null, mapDispatchToProps)(ProductItem);

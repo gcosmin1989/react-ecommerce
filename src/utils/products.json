@@ -3,94 +3,94 @@
         "items": [
             {
                 "id": 1,
-                "name": "Laptop-uri Home ",
-                "price": 1.800,
+                "name": "Laptop Home ",
+                "price": 1800,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
+                "image": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": 15.6,
+                "colour": "Gri",
+                "material": "Aluminiu",
+                "brand": "ASUS",
+                "description": "Laptop ASUS X515KA cu procesor Intel® Celeron® N4500 pana la 2.80 GHz, 15.6, Full HD, 8GB, 256GB M.2 NVMe™ PCIe® 3.0 SSD, Intel® UHD Graphics, No OS"
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
-                "price": 100,
+                "name": "Laptop Business",
+                "price": 2200,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Pânză",
-                "brand": "Polo Ralph Lauren",
-                "description": "Teniși din pânză cu talpă inițial albă, din colecția de primăvară-vară 2019, Fashion Days."
+                "image": "https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": 14,
+                "colour": "Gri",
+                "material": "Aluminiu",
+                "brand": "DELL",
+                "description": "Laptop Dell Vostro 3510 cu procesor Intel® Core™ i3-1115G4 pana la 4.10 GHz, Tiger Lake, Full HD, 8GB, 512GB, Intel® UHD Graphics, Ubuntu Linux 20.04, 3y ProSupport and Next Business Day Onsite Service"
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
-                "price": 185,
+                "name": "Laptop Gaming",
+                "price": 4250,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
-                "colour": "Maro",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
+                "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "size": 16,
+                "colour": "Negru",
+                "material": "Aluminiu",
+                "brand": "HP",
+                "description": "Laptop Gaming HP VICTUS 15-fb0029nq cu procesor AMD Ryzen™ 5 5600H pana la 4.20 GHz, Full HD, 8GB, 256GB SSD, Nvidia GeForce GTX 1650 4GB, FreeDOS, Mica Silver"
             }
         ],
         "image": "https://img.freepik.com/free-photo/close-up-minimalist-shot-generic-laptop-computer-working-accessories-resting-wooden-table_273609-1706.jpg?w=996&t=st=1673977833~exp=1673978433~hmac=d55dfb0279dafe7d8ac13d890fa60d5d4ce724af45ff9ea1178e63b7aa61404f",
         "name": "Laptopuri",
-        "description": "Home, Business, Gaming, Ultraporabil"
+        "description": "Home, Business, Gaming"
     },
     "sweaters": {
         "items": [
             {
                 "id": 4,
-                "name": "Pulovăr finuț cu guler",
-                "price": 95,
+                "name": "iPhone 11",
+                "price": 2900,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/6afzuEr.jpg",
-                "size": "L",
-                "colour": "Maro",
-                "material": "Cașmir",
-                "brand": "DS Damat",
-                "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+                "size": "7",
+                "colour": "Alb",
+                "material": "Aluminiu",
+                "brand": "Apple",
+                "description": "Telefon mobil Apple iPhone 11"
             },
             {
                 "id": 5,
-                "name": "Pulovăr multicolor",
-                "price": 105,
+                "name": "Galaxy S22",
+                "price": 3100,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/s0VytKc.jpg",
-                "size": "L",
+                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+                "size": "7",
                 "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "McNeal",
-                "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
+                "material": "Aluminiu",
+                "brand": "Samsung",
+                "description": "Telefon mobil Samsung Galaxy S22"
             },
             {
                 "id": 6,
-                "name": "Pulovăr călduros și frumos",
-                "price": 165,
+                "name": "Telefon Dual-SIM Galaxy A53",
+                "price": 1600,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/BWGgzlK.jpg",
-                "size": "L",
+                "image": "https://images.unsplash.com/photo-1570891836654-d4961a7b6929?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+                "size": "7",
                 "colour": "Multicolor",
-                "material": "Lână",
-                "brand": "SELECTED",
-                "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
+                "material": "Aluminiu",
+                "brand": "Samsung",
+                "description": "Telefon mobil Samsung Galaxy A53 Dual SIM"
             },
             {
                 "id": 7,
-                "name": "Pulovăr din lână",
-                "price": 160,
+                "name": "Nova 9",
+                "price": 1500,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/dTcMbHT.jpg",
-                "size": "L",
+                "image": "https://images.unsplash.com/photo-1595941069915-4ebc5197c14a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+                "size": "7",
                 "colour": "Crem",
-                "material": "Lână",
-                "brand": "Massimo Dutti",
-                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
+                "material": "Aluminiu",
+                "brand": "Huawei",
+                "description": "Telefon mobil Huawei Nova 9 Dual SIM"
             }
         ],
         "image": "https://img.freepik.com/free-photo/mobile-phone-cases-mockup-product-showcase_53876-96025.jpg?w=1060&t=st=1673978058~exp=1673978658~hmac=e4bb5433594fdcb3c9394014b8495dca9ca0731633aa4dfc2d55090102d03ac1",
@@ -101,27 +101,27 @@
         "items": [
             {
                 "id": 8,
-                "name": "Blugi bleumarin slim fit",
-                "price": 35,
+                "name": "Galaxy Tab A8",
+                "price": 1500,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/VhpATO8.jpg",
-                "size": "34",
-                "colour": "Bleumarin închis",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
+                "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=704&q=80",
+                "size": "11",
+                "colour": "Negru",
+                "material": "Aluminiu",
+                "brand": "Samsung",
+                "description": "Tableta Samsung Galaxy Tab A8"
             },
             {
                 "id": 9,
-                "name": "Blugi negri slim fit",
-                "price": 40,
+                "name": "iPad 10",
+                "price": 2500,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/weiI07t.jpg",
-                "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://images.pexels.com/photos/1334596/pexels-photo-1334596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": "11",
+                "colour": "Alb",
+                "material": "Aluminiu",
+                "brand": "Apple",
+                "description": "Apple iPad 10"
             }
         ],
         "image": "https://img.freepik.com/free-photo/digital-tablet-with-white-screen-display-surrounded-with-office-supplies-coffee-cup-gray-backdrop_23-2148052593.jpg?w=996&t=st=1673978655~exp=1673979255~hmac=af5a470a6a625493d24b913fc424a57e35be54bd23d92844bd0eec3a03169dde",
@@ -132,27 +132,27 @@
         "items": [
             {
                 "id": 10,
-                "name": "Haină lungă din lână virgină",
-                "price": 210,
+                "name": "Smartwatch Sport",
+                "price": 800,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/IXrZitQ.jpg",
-                "size": "L",
-                "colour": "Gri închis",
-                "material": "Lână virgină",
-                "brand": "Peek and Cloppenburg",
-                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
+                "image": "https://images.unsplash.com/photo-1638095562082-449d8c5a47b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+                "size": "-",
+                "colour": "Albastru închis",
+                "material": "Plastic",
+                "brand": "GO4IT",
+                "description": "Ceas Smartwatch Sport model GF03"
             },
             {
                 "id": 11,
-                "name": "Geacă bleumarin cu glugă detașabilă",
-                "price": 250,
+                "name": "Smartwatch Casual",
+                "price": 750,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/eCZd7PU.jpg",
-                "size": "L",
-                "colour": "Bleumarin",
-                "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80",
+                "size": "-",
+                "colour": "Alb",
+                "material": "Plastic",
+                "brand": "Beyond",
+                "description": "Ceas Smartwatch Beyond"
             }
         ],
         "image": "https://img.freepik.com/premium-photo/apple-watch-series-gray-background-new-smart-watches-from-company-apple-close-up_219766-2747.jpg?w=996",
@@ -163,39 +163,39 @@
         "items": [
             {
                 "id": 12,
-                "name": "Tricou în dungi",
-                "price": 90,
+                "name": "Charger 5",
+                "price": 600,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/BWvzCwB.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "Lacoste",
-                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
+                "image": "https://images.pexels.com/photos/11031429/pexels-photo-11031429.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": "-",
+                "colour": "Turcuaz",
+                "material": "Plastic",
+                "brand": "JBL",
+                "description": "Boxa portabila JBL Charher 5"
             },
             {
                 "id": 13,
-                "name": "Tricou de ping pong",
-                "price": 110,
+                "name": "X40",
+                "price": 300,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/4BbF4TO.jpg",
-                "size": "L",
+                "image": "https://images.pexels.com/photos/13465232/pexels-photo-13465232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": "-",
                 "colour": "Roșu",
-                "material": "Poliester",
-                "brand": "Li Ning",
-                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
+                "material": "Plastic",
+                "brand": "Sony",
+                "description": "Boxa portabila Sony X40 stereo."
             },
             {
                 "id": 14,
-                "name": "Tricou original BVB cu autograf",
-                "price": 1909,
+                "name": "XBOOM Go PL2",
+                "price": 500,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/etIsbHV.jpg",
-                "size": "L",
-                "colour": "Galben-Negru",
-                "material": "Poliester",
-                "brand": "Puma",
-                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
+                "image": "https://images.pexels.com/photos/14309809/pexels-photo-14309809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": "-",
+                "colour": "Alb",
+                "material": "Plastic",
+                "brand": "Bose",
+                "description": "Boxa portabila Bose XBOOM Go PL2."
             }
         ],
         "image": "https://img.freepik.com/premium-photo/voice-controlled-smart-speaker_651412-4632.jpg?w=996",
@@ -206,27 +206,27 @@
         "items": [
             {
                 "id": 15,
-                "name": "Fular TJ cu două fețe",
-                "price": 85,
+                "name": "XBOX One",
+                "price": 3000,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/rSVUiLO.jpg",
-                "size": "Universal",
-                "colour": "Gri-Bleumarin",
-                "material": "Cașmir",
-                "brand": "Trussardi Jeans",
-                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
+                "image": "https://images.pexels.com/photos/10997583/pexels-photo-10997583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": "-",
+                "colour": "Alb",
+                "material": "Plastic",
+                "brand": "XBOX",
+                "description": "Consola XBOX ONE"
             },
             {
                 "id": 16,
-                "name": "Mănuși din piele",
-                "price": 60,
+                "name": "PlayStation 5",
+                "price": 4500,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/LbjGaZ1.jpg",
-                "size": "L",
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "DS Damat",
-                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
+                "image": "https://images.pexels.com/photos/13189272/pexels-photo-13189272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "size": "-",
+                "colour": "Alb",
+                "material": "Plastic",
+                "brand": "Sony",
+                "description": "Consola Sony PlayStation 5"
             }
         ],
         "image": "https://img.freepik.com/premium-photo/group-gen-game-controllers_264404-193.jpg?w=996",

@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './firebase-init';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-//2:24:56
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

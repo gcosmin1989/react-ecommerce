@@ -4,7 +4,10 @@ import './Header.css';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
 import React from 'react';
 import { signOut } from '../firebase-init';
-function Header() {
+import { connect } from 'react-redux';
+
+function Header(props) {
+	const { numberOfProductsInCart } = props;
 	return (
 		<div className="header d-flex justify-content-between align-items-center container">
 			<Link to="/">
@@ -27,10 +30,19 @@ function Header() {
 				) : (
 					<Link to="/login">LogIn</Link>
 				)}
-				<ShoppingCart />
+				<Link to="/cart">
+					<ShoppingCart />
+				</Link>
+				<p>{numberOfProductsInCart}</p>
 			</div>
 		</div>
 	);
 }
 
-export default Header;
+function mapStateToProps(state) {
+	return {
+		numberOfProductsInCart: state.products.length
+	};
+}
+
+export default connect(mapStateToProps)(Header);

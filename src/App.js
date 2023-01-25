@@ -9,6 +9,7 @@ import Category from './pages/Category';
 import Product from './pages/Product';
 import { Component } from 'react';
 import TermsAndCond from './pages/TermsAndCond';
+import Cart from './pages/Cart';
 
 class App extends Component {
 	constructor() {
@@ -26,6 +27,7 @@ class App extends Component {
 					<Route path="/terms-conditions" component={TermsAndCond} />
 					<Route path="/category/:categoryName" component={Category} />
 					<Route path="/products/:categoryName/:productId" component={Product} />
+					<Route path="/cart" component={Cart} />
 					<Route component={Page404} />
 				</Switch>
 			</div>
