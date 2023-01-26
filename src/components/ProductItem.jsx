@@ -8,9 +8,9 @@ function ProductItem({ product, category, addToCartInjected }) {
 	let price = product.price;
 	let currency = product.currency;
 	let image = product.image;
+	let quantity = product.quantity;
 	return (
-		<div className=" product-item col-4 d-flex flex-column align-items-center">
-			<Link to={`/products/${category}/${product.id}`}>Detalii Produs</Link>
+		<div className="col-4 d-flex flex-column align-items-center mt-5">
 			<img className="" src={image} alt="" />
 			<h3 className="text-center">{name}</h3>
 			<h4 className="text-center">
@@ -18,13 +18,16 @@ function ProductItem({ product, category, addToCartInjected }) {
 			</h4>
 
 			<button
-				className="btn btn-outline-dark"
+				className="btn btn-dark mb-4 w-75 font-weight-bold"
 				onClick={() => {
-					addToCartInjected({ product: { name, price, currency, image } });
+					addToCartInjected({ product: { name, price, currency, image, quantity } });
 				}}
 			>
 				Adauga in cos
 			</button>
+			<Link className="btn btn-primary " to={`/products/${category}/${product.id}`}>
+				Detalii Produs
+			</Link>
 		</div>
 	);
 }

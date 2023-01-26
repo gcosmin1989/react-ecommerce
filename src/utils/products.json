@@ -11,7 +11,8 @@
                 "colour": "Gri",
                 "material": "Aluminiu",
                 "brand": "ASUS",
-                "description": "Laptop ASUS X515KA cu procesor Intel® Celeron® N4500 pana la 2.80 GHz, 15.6, Full HD, 8GB, 256GB M.2 NVMe™ PCIe® 3.0 SSD, Intel® UHD Graphics, No OS"
+                "description": "Laptop ASUS X515KA cu procesor Intel® Celeron® N4500 pana la 2.80 GHz, 15.6, Full HD, 8GB, 256GB M.2 NVMe™ PCIe® 3.0 SSD, Intel® UHD Graphics, No OS",
+                "quantity":1
             },
             {
                 "id": 2,
@@ -23,7 +24,8 @@
                 "colour": "Gri",
                 "material": "Aluminiu",
                 "brand": "DELL",
-                "description": "Laptop Dell Vostro 3510 cu procesor Intel® Core™ i3-1115G4 pana la 4.10 GHz, Tiger Lake, Full HD, 8GB, 512GB, Intel® UHD Graphics, Ubuntu Linux 20.04, 3y ProSupport and Next Business Day Onsite Service"
+                "description": "Laptop Dell Vostro 3510 cu procesor Intel® Core™ i3-1115G4 pana la 4.10 GHz, Tiger Lake, Full HD, 8GB, 512GB, Intel® UHD Graphics, Ubuntu Linux 20.04, 3y ProSupport and Next Business Day Onsite Service",
+                "quantity":1
             },
             {
                 "id": 3,
@@ -35,7 +37,8 @@
                 "colour": "Negru",
                 "material": "Aluminiu",
                 "brand": "HP",
-                "description": "Laptop Gaming HP VICTUS 15-fb0029nq cu procesor AMD Ryzen™ 5 5600H pana la 4.20 GHz, Full HD, 8GB, 256GB SSD, Nvidia GeForce GTX 1650 4GB, FreeDOS, Mica Silver"
+                "description": "Laptop Gaming HP VICTUS 15-fb0029nq cu procesor AMD Ryzen™ 5 5600H pana la 4.20 GHz, Full HD, 8GB, 256GB SSD, Nvidia GeForce GTX 1650 4GB, FreeDOS, Mica Silver",
+                "quantity":1
             }
         ],
         "image": "https://img.freepik.com/free-photo/close-up-minimalist-shot-generic-laptop-computer-working-accessories-resting-wooden-table_273609-1706.jpg?w=996&t=st=1673977833~exp=1673978433~hmac=d55dfb0279dafe7d8ac13d890fa60d5d4ce724af45ff9ea1178e63b7aa61404f",
@@ -54,7 +57,8 @@
                 "colour": "Alb",
                 "material": "Aluminiu",
                 "brand": "Apple",
-                "description": "Telefon mobil Apple iPhone 11"
+                "description": "Telefon mobil Apple iPhone 11",
+                "quantity":1
             },
             {
                 "id": 5,
@@ -66,7 +70,8 @@
                 "colour": "Multicolor",
                 "material": "Aluminiu",
                 "brand": "Samsung",
-                "description": "Telefon mobil Samsung Galaxy S22"
+                "description": "Telefon mobil Samsung Galaxy S22",
+                "quantity":1
             },
             {
                 "id": 6,
@@ -78,7 +83,8 @@
                 "colour": "Multicolor",
                 "material": "Aluminiu",
                 "brand": "Samsung",
-                "description": "Telefon mobil Samsung Galaxy A53 Dual SIM"
+                "description": "Telefon mobil Samsung Galaxy A53 Dual SIM",
+                "quantity":1
             },
             {
                 "id": 7,
@@ -90,7 +96,8 @@
                 "colour": "Crem",
                 "material": "Aluminiu",
                 "brand": "Huawei",
-                "description": "Telefon mobil Huawei Nova 9 Dual SIM"
+                "description": "Telefon mobil Huawei Nova 9 Dual SIM",
+                "quantity":1
             }
         ],
         "image": "https://img.freepik.com/free-photo/mobile-phone-cases-mockup-product-showcase_53876-96025.jpg?w=1060&t=st=1673978058~exp=1673978658~hmac=e4bb5433594fdcb3c9394014b8495dca9ca0731633aa4dfc2d55090102d03ac1",
@@ -109,7 +116,8 @@
                 "colour": "Negru",
                 "material": "Aluminiu",
                 "brand": "Samsung",
-                "description": "Tableta Samsung Galaxy Tab A8"
+                "description": "Tableta Samsung Galaxy Tab A8",
+                "quantity":1
             },
             {
                 "id": 9,
@@ -121,12 +129,14 @@
                 "colour": "Alb",
                 "material": "Aluminiu",
                 "brand": "Apple",
-                "description": "Apple iPad 10"
+                "description": "Apple iPad 10",
+                "quantity":1
             }
         ],
         "image": "https://img.freepik.com/free-photo/digital-tablet-with-white-screen-display-surrounded-with-office-supplies-coffee-cup-gray-backdrop_23-2148052593.jpg?w=996&t=st=1673978655~exp=1673979255~hmac=af5a470a6a625493d24b913fc424a57e35be54bd23d92844bd0eec3a03169dde",
         "name": "Tablete",
         "description": "Android, iPadOS, Microsoft Windows, iOS"
+        
     },
     "jackets": {
         "items": [
@@ -140,7 +150,8 @@
                 "colour": "Albastru închis",
                 "material": "Plastic",
                 "brand": "GO4IT",
-                "description": "Ceas Smartwatch Sport model GF03"
+                "description": "Ceas Smartwatch Sport model GF03",
+                "quantity":1
             },
             {
                 "id": 11,
@@ -152,7 +163,8 @@
                 "colour": "Alb",
                 "material": "Plastic",
                 "brand": "Beyond",
-                "description": "Ceas Smartwatch Beyond"
+                "description": "Ceas Smartwatch Beyond",
+                "quantity":1
             }
         ],
         "image": "https://img.freepik.com/premium-photo/apple-watch-series-gray-background-new-smart-watches-from-company-apple-close-up_219766-2747.jpg?w=996",
@@ -171,7 +183,8 @@
                 "colour": "Turcuaz",
                 "material": "Plastic",
                 "brand": "JBL",
-                "description": "Boxa portabila JBL Charher 5"
+                "description": "Boxa portabila JBL Charher 5",
+                "quantity":1
             },
             {
                 "id": 13,
@@ -183,7 +196,8 @@
                 "colour": "Roșu",
                 "material": "Plastic",
                 "brand": "Sony",
-                "description": "Boxa portabila Sony X40 stereo."
+                "description": "Boxa portabila Sony X40 stereo.",
+                "quantity":1
             },
             {
                 "id": 14,
@@ -195,7 +209,8 @@
                 "colour": "Alb",
                 "material": "Plastic",
                 "brand": "Bose",
-                "description": "Boxa portabila Bose XBOOM Go PL2."
+                "description": "Boxa portabila Bose XBOOM Go PL2.",
+                "quantity":1
             }
         ],
         "image": "https://img.freepik.com/premium-photo/voice-controlled-smart-speaker_651412-4632.jpg?w=996",
@@ -214,7 +229,8 @@
                 "colour": "Alb",
                 "material": "Plastic",
                 "brand": "XBOX",
-                "description": "Consola XBOX ONE"
+                "description": "Consola XBOX ONE",
+                "quantity":1
             },
             {
                 "id": 16,
@@ -226,7 +242,8 @@
                 "colour": "Alb",
                 "material": "Plastic",
                 "brand": "Sony",
-                "description": "Consola Sony PlayStation 5"
+                "description": "Consola Sony PlayStation 5",
+                "quantity":1
             }
         ],
         "image": "https://img.freepik.com/premium-photo/group-gen-game-controllers_264404-193.jpg?w=996",

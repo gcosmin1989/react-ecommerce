@@ -13,7 +13,7 @@ function Product(props) {
 
 	return (
 		<Layout>
-			<div className="container-fluid container-min-max-width product-page p-5">
+			<div className="container-fluid container-min-max-width product-page ol-4 d-flex flex-column align-items-center mt-5">
 				<h1 className="my-5 h2">{product.name}</h1>
 				<div className="product-info d-flex">
 					<div className="image-wrapper d-flex mr-5">
@@ -24,11 +24,19 @@ function Product(props) {
 							{product.price} {product.currency}
 						</p>
 
-						<p>Color: {product.colour}</p>
-						<p>Material: {product.material}</p>
-						<p>Brand: {product.brand}</p>
-						<p className="font-weight-bold mb-1">Description:</p>
-						<p>{product.description}</p>
+						<p>
+							<b>Color</b>: {product.colour}
+						</p>
+						<p>
+							<b>Material</b>: {product.material}
+						</p>
+						<p>
+							<b>Brand</b>: {product.brand}
+						</p>
+						<p className="font-weight-bold mb-1">
+							<b>Descriere</b>
+						</p>
+						<p className="text-wrap">{product.description}</p>
 						<button
 							className="btn btn-dark mb-4 w-75 font-weight-bold "
 							onClick={() => {
@@ -38,12 +46,13 @@ function Product(props) {
 										name: product.name,
 										price: product.price,
 										currency: product.currency,
-										image: product.image
+										image: product.image,
+										quantity: product.quantity
 									}
 								});
 							}}
 						>
-							Add to cart
+							Adauga in cos
 						</button>
 					</div>
 				</div>
