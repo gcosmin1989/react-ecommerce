@@ -10,6 +10,7 @@ function Home() {
 	return (
 		<div>
 			<Layout>
+				TEST
 				<div className="container">
 					<div className="row">
 						{categories.map((category, index) => {
