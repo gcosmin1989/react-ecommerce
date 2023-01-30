@@ -16,20 +16,16 @@ function Header(props) {
 			<div>
 				{localStorage.name ? (
 					<p>
-						Esti logat ca: <b>{localStorage.name}</b>!
+						Esti logat:<b> {localStorage.name}</b>!
+						<Link to="/" onClick={signOut}>
+							Logout
+						</Link>
 					</p>
-				) : (
-					''
-				)}
-			</div>
-			<div>
-				{localStorage.name ? (
-					<Link to="/" onClick={signOut}>
-						Logout
-					</Link>
 				) : (
 					<Link to="/login">LogIn</Link>
 				)}
+			</div>
+			<div>
 				<Link to="/cart">
 					<ShoppingCart />
 				</Link>
@@ -40,6 +36,7 @@ function Header(props) {
 }
 
 function mapStateToProps(state) {
+	console.log(state.products);
 	return {
 		numberOfProductsInCart: state.products.length
 	};

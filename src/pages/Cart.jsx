@@ -3,12 +3,11 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import './cart.css';
 import Layout from '../components/Layout';
+import { removeFromCart } from '../redux/action/cart';
 
 function Cart(props) {
 	const { products } = props;
-	console.log(products);
 	const totalSum = (products) => {
-		console.log(products, 111);
 		return products.reduce((acc, product) => {
 			return acc + product.quantity * product.price;
 		}, 0);
@@ -39,12 +38,19 @@ function Cart(props) {
 									<p className="w-25">
 										{product.price} {product.currency}
 									</p>
+
 									<p className="w-25">{product.quantity}</p>
 									<div className="w-25 d-flex justify-content-center">
 										<p className="mr-2">
 											{product.price * product.quantity} {product.currency}
 										</p>
 									</div>
+									<button
+										className="btn btn-outline-danger"
+										onClick={() => props.removeFromCart({ id: product.id })}
+									>
+										X
+									</button>
 								</div>
 							);
 						})}
@@ -52,6 +58,7 @@ function Cart(props) {
 							<div className="w-25 d-flex align-items-center justify-content-center">
 								<p className="my-4 text-center font-weight-bold">Total </p>
 							</div>
+
 							<div className="w-25">
 								<p className="my-4 text-center">
 									{totalSum(products)} {products[0].currency}
@@ -77,5 +84,10 @@ function mapStateToProps(state) {
 		products: state.products
 	};
 }
+function mapDispatchToProps(dispatch) {
+	return {
+		removeFromCart: (payload) => dispatch(removeFromCart(payload))
+	};
+}
 
-export default connect(mapStateToProps)(Cart);
+export default connect(mapStateToProps, mapDispatchToProps)(Cart);

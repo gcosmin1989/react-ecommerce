@@ -9,6 +9,7 @@ function ProductItem({ product, category, addToCartInjected }) {
 	let currency = product.currency;
 	let image = product.image;
 	let quantity = product.quantity;
+	let id = product.id;
 	return (
 		<div className="col-4 d-flex flex-column align-items-center mt-5">
 			<img className="" src={image} alt="" />
@@ -20,7 +21,7 @@ function ProductItem({ product, category, addToCartInjected }) {
 			<button
 				className="btn btn-dark mb-4 w-75 font-weight-bold"
 				onClick={() => {
-					addToCartInjected({ product: { name, price, currency, image, quantity } });
+					addToCartInjected({ product: { name, price, currency, image, quantity, id } });
 				}}
 			>
 				Adauga in cos
