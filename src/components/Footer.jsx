@@ -18,7 +18,9 @@ function Footer() {
 					Terms & Conditions
 				</Link>
 			</div>
-			<p className="text-center text-muted">@ {currentYear.getFullYear()} Cosmin Shop</p>
+			<p className="nav justify-content-center border-bottom pb-3 text-muteds">
+				@ {currentYear.getFullYear()} Cosmin Shop
+			</p>
 		</div>
 	);
 }

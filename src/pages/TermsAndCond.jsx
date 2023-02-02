@@ -5,23 +5,18 @@ function TermsAndCond() {
 	return (
 		<Layout>
 			<div className="container mt-5">
-				<h2 className="text-center pb-4">
-					<strong>Terms and Conditions</strong>
-				</h2>
+				<h2 className="text-center pb-4">Terms and Conditions</h2>
+
+				<p>Welcome to Cosmin-Shop! </p>
 
 				<p>
-					Welcome to <strong>Cosmin-Shop</strong>!
-				</p>
-
-				<p>
-					These terms and conditions outline the rules and regulations for the use of{' '}
-					<strong>Cosmin-Shop's</strong> Website, located at www.cosmin-shop.ro.
+					These terms and conditions outline the rules and regulations for the use of  <b>Cosmin-Shop's</b>{' '}
+					Website, located at www.cosmin-shop.ro.
 				</p>
 
 				<p>
 					By accessing this website we assume you accept these terms and conditions. Do not continue to use
-					<strong>Cosmin-Shop</strong> if you do not agree to take all of the terms and conditions stated on
-					this page.
+					Cosmin-Shop if you do not agree to take all of the terms and conditions stated on this page.
 				</p>
 
 				<p>
@@ -37,13 +32,11 @@ function TermsAndCond() {
 					therefore as referring to same.
 				</p>
 
-				<h3>
-					<strong>Cookies</strong>
-				</h3>
+				<h3>Cookies</h3>
 
 				<p>
-					We employ the use of cookies. By accessing <strong>Cosmin-Shop</strong>, you agreed to use cookies
-					in agreement with the <strong>Cosmin-Shop's</strong> Privacy Policy.{' '}
+					We employ the use of cookies. By accessing Cosmin-Shop, you agreed to use cookies in agreement with
+					the Cosmin-Shop's Privacy Policy.{' '}
 				</p>
 
 				<p>
@@ -52,28 +45,20 @@ function TermsAndCond() {
 					visiting our website. Some of our affiliate/advertising partners may also use cookies.
 				</p>
 
-				<h3>
-					<strong>License</strong>
-				</h3>
+				<h3>License</h3>
 
 				<p>
-					Unless otherwise stated, <strong>Cosmin-Shop</strong> and/or its licensors own the intellectual
-					property rights for all material on <strong>Cosmin-Shop</strong>. All intellectual property rights
-					are reserved. You may access this from
-					<strong>Cosmin-Shop</strong> for your own personal use subjected to restrictions set in these terms
-					and conditions.
+					Unless otherwise stated, Cosmin-Shop and/or its licensors own the intellectual property rights for
+					all material on Cosmin-Shop. All intellectual property rights are reserved. You may access this from
+					Cosmin-Shop for your own personal use subjected to restrictions set in these terms and conditions.
 				</p>
 
 				<p>You must not:</p>
 				<ul>
-					<li>
-						Republish material from <strong>Cosmin-Shop</strong>
-					</li>
+					<li>Republish material from Cosmin-Shop</li>
 					<li>Sell, rent or sub-license material from Cosmin-Shop</li>
 					<li>Reproduce, duplicate or copy material from Cosmin-Shop</li>
-					<li>
-						Redistribute content from <strong>Cosmin-Shop</strong>
-					</li>
+					<li>Redistribute content from Cosmin-Shop</li>
 				</ul>
 
 				<p>
@@ -84,18 +69,17 @@ function TermsAndCond() {
 
 				<p>
 					Parts of this website offer an opportunity for users to post and exchange opinions and information
-					in certain areas of the website. <strong>Cosmin-Shop</strong> does not filter, edit, publish or
-					review Comments prior to their presence on the website. Comments do not reflect the views and
-					opinions of <strong>Cosmin-Shop</strong>,its agents and/or affiliates. Comments reflect the views
-					and opinions of the person who post their views and opinions. To the extent permitted by applicable
-					laws, <strong>Cosmin-Shop</strong> shall not be liable for the Comments or for any liability,
-					damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or
-					appearance of the Comments on this website.
+					in certain areas of the website. Cosmin-Shop does not filter, edit, publish or review Comments prior
+					to their presence on the website. Comments do not reflect the views and opinions of Cosmin-Shop,its
+					agents and/or affiliates. Comments reflect the views and opinions of the person who post their views
+					and opinions. To the extent permitted by applicable laws, Cosmin-Shop shall not be liable for the
+					Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of
+					and/or posting of and/or appearance of the Comments on this website.
 				</p>
 
 				<p>
-					<strong>Cosmin-Shop</strong> reserves the right to monitor all Comments and to remove any Comments
-					which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
+					Cosmin-Shop reserves the right to monitor all Comments and to remove any Comments which can be
+					considered inappropriate, offensive or causes breach of these Terms and Conditions.
 				</p>
 
 				<p>You warrant and represent that:</p>
@@ -120,14 +104,11 @@ function TermsAndCond() {
 				</ul>
 
 				<p>
-					You hereby grant <strong>Cosmin-Shop</strong> a non-exclusive license to use, reproduce, edit and
-					authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or
-					media.
+					You hereby grant Cosmin-Shop a non-exclusive license to use, reproduce, edit and authorize others to
+					use, reproduce and edit any of your Comments in any and all forms, formats or media.
 				</p>
 
-				<h3>
-					<strong>Hyperlinking to our Content</strong>
-				</h3>
+				<h3>Hyperlinking to our Content</h3>
 
 				<p>The following organizations may link to our Website without prior written approval:</p>
 
@@ -168,8 +149,8 @@ function TermsAndCond() {
 					We will approve link requests from these organizations if we decide that: (a) the link would not
 					make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not
 					have any negative records with us; (c) the benefit to us from the visibility of the hyperlink
-					compensates the absence of <strong>Cosmin-Shop</strong>; and (d) the link is in the context of
-					general resource information.
+					compensates the absence of Cosmin-Shop; and (d) the link is in the context of general resource
+					information.
 				</p>
 
 				<p>
@@ -198,22 +179,18 @@ function TermsAndCond() {
 				</ul>
 
 				<p>
-					No use of <strong>Cosmin-Shop's</strong> logo or other artwork will be allowed for linking absent a
-					trademark license agreement.
+					No use of Cosmin-Shop's logo or other artwork will be allowed for linking absent a trademark license
+					agreement.
 				</p>
 
-				<h3>
-					<strong>iFrames</strong>
-				</h3>
+				<h3>iFrames</h3>
 
 				<p>
 					Without prior approval and written permission, you may not create frames around our Webpages that
 					alter in any way the visual presentation or appearance of our Website.
 				</p>
 
-				<h3>
-					<strong>Content Liability</strong>
-				</h3>
+				<h3>Content Liability</h3>
 
 				<p>
 					We shall not be hold responsible for any content that appears on your Website. You agree to protect
@@ -222,15 +199,11 @@ function TermsAndCond() {
 					violates, or advocates the infringement or other violation of, any third party rights.
 				</p>
 
-				<h3>
-					<strong>Your Privacy</strong>
-				</h3>
+				<h3>Your Privacy</h3>
 
 				<p>Please read Privacy Policy</p>
 
-				<h3>
-					<strong>Reservation of Rights</strong>
-				</h3>
+				<h3>Reservation of Rights</h3>
 
 				<p>
 					We reserve the right to request that you remove all links or any particular link to our Website. You
@@ -239,9 +212,7 @@ function TermsAndCond() {
 					Website, you agree to be bound to and follow these linking terms and conditions.
 				</p>
 
-				<h3>
-					<strong>Removal of links from our website</strong>
-				</h3>
+				<h3>Removal of links from our website</h3>
 
 				<p>
 					If you find any link on our Website that is offensive for any reason, you are free to contact and
@@ -255,9 +226,7 @@ function TermsAndCond() {
 					the website is kept up to date.
 				</p>
 
-				<h3>
-					<strong>Disclaimer</strong>
-				</h3>
+				<h3>Disclaimer</h3>
 
 				<p>
 					To the maximum extent permitted by applicable law, we exclude all representations, warranties and
