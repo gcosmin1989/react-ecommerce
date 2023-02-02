@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import './cart.css';
-import Layout from '../components/Layout';
-import { removeFromCart } from '../redux/action/cart';
+import Layout from '../../components/Layout/Layout';
+import { removeFromCart } from '../../redux/action/cart';
 
 function Cart(props) {
 	const { products } = props;

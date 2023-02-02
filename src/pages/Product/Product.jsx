@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import products from '../utils/products.json';
+import Layout from '../../components/Layout/Layout';
+import products from '../../utils/products.json';
 import { connect } from 'react-redux';
-import { addToCart } from '../redux/action/cart';
+import { addToCart } from '../../redux/action/cart';
 
 function Product(props) {
 	const productId = props.match.params.productId;

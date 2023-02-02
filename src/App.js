@@ -1,15 +1,15 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
-import About from './pages/About';
-import Login from './pages/Login';
-import Page404 from './pages/Page404';
-import Category from './pages/Category';
-import Product from './pages/Product';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Login from './pages/Login/Login';
+import Page404 from './pages/Page404/Page404';
+import Category from './pages/Category/Category';
+import Product from './pages/Product/Product';
 import { Component } from 'react';
-import TermsAndCond from './pages/TermsAndCond';
-import Cart from './pages/Cart';
+import TermsAndCond from './pages/TermsAndCond/TermsAndCond';
+import Cart from './pages/Cart/Cart';
 
 class App extends Component {
 	constructor() {

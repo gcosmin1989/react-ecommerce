@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout/Layout';
 
 function TermsAndCond() {
 	return (
@@ -10,7 +10,7 @@ function TermsAndCond() {
 				<p>Welcome to Cosmin-Shop! </p>
 
 				<p>
-					These terms and conditions outline the rules and regulations for the use of  <b>Cosmin-Shop's</b>{' '}
+					These terms and conditions outline the rules and regulations for the use of <b>Cosmin-Shop's</b>{' '}
 					Website, located at www.cosmin-shop.ro.
 				</p>
 

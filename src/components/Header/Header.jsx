@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/images/cosmin-logo.png';
+import logo from '../../assets/images/cosmin-logo.png';
 import './Header.css';
-import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
+import { ReactComponent as ShoppingCart } from '../../assets/icons/shopping-cart.svg';
 import React from 'react';
-import { signOut } from '../firebase-init';
+import { signOut } from '../../firebase-init';
 import { connect } from 'react-redux';
 
 function Header(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Layout from '../components/Layout';
-import ProductItem from '../components/ProductItem';
-import products from '../utils/products.json';
+import Layout from '../../components/Layout/Layout';
+import ProductItem from '../../components/ProductItem/ProductItem';
+import products from '../../utils/products.json';
 
 class Category extends Component {
 	render() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FacebookLoginButton, GoogleLoginButton } from 'react-social-login-buttons';
-import { signInWithGoogle, signInWithFacebook } from '../firebase-init';
-import Layout from '../components/Layout';
+import { signInWithGoogle, signInWithFacebook } from '../../firebase-init';
+import Layout from '../../components/Layout/Layout';
 
 function Login() {
 	return (
