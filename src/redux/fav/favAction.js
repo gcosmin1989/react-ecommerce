@@ -1,10 +1,11 @@
+import { add, remove } from './favConstants';
 export function addToFav(payload) {
-	return { type: 'ADD_TO_FAV', payload: payload };
+	return { type: add, payload: payload };
 }
 
 export function removeFromFav(payload) {
 	return {
-		type: 'REMOVE_FROM_FAV',
+		type: remove,
 		payload: payload
 	};
 }

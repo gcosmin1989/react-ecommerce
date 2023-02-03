@@ -34,7 +34,7 @@ function favReducer(state = initialState, action) {
 				});
 			}
 
-		case 'REMOVE_FROM_Fav':
+		case 'REMOVE_FROM_FAV':
 			const filteredProducts = state.products.filter((product) => {
 				return product.id !== action.payload.id;
 			});

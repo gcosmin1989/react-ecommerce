@@ -10,6 +10,7 @@ import Product from './pages/Product/Product';
 import { Component } from 'react';
 import TermsAndCond from './pages/TermsAndCond/TermsAndCond';
 import Cart from './pages/Cart/Cart';
+import Fav from './pages/Fav/Fav';
 
 class App extends Component {
 	constructor() {
@@ -28,6 +29,7 @@ class App extends Component {
 					<Route path="/category/:categoryName" component={Category} />
 					<Route path="/products/:categoryName/:productId" component={Product} />
 					<Route path="/cart" component={Cart} />
+					<Route path="/fav" component={Fav} />
 					<Route component={Page404} />
 				</Switch>
 			</div>

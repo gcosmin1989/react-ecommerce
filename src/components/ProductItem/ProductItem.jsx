@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { addToCart } from '../../redux/action/cart';
+import { addToCart } from '../../redux/cart/cartAction';
+import { addToFav } from '../../redux/fav/favAction';
 
-function ProductItem({ product, category, addToCartInjected }) {
+function ProductItem({ product, category, addToCartInjected, addToFavInjected }) {
 	let name = product.name;
 	let price = product.price;
 	let currency = product.currency;
@@ -26,6 +27,14 @@ function ProductItem({ product, category, addToCartInjected }) {
 			>
 				Adauga in cos
 			</button>
+			<button
+				className="btn btn-dark mb-4 w-75 font-weight-bold"
+				onClick={() => {
+					addToFavInjected({ product: { name, price, currency, image, quantity, id } });
+				}}
+			>
+				Adauga la Favorite
+			</button>
 			<Link className="btn btn-primary " to={`/products/${category}/${product.id}`}>
 				Detalii Produs
 			</Link>
@@ -35,7 +44,8 @@ function ProductItem({ product, category, addToCartInjected }) {
 
 function mapDispatchToProps(dispatch) {
 	return {
-		addToCartInjected: (payload) => dispatch(addToCart(payload))
+		addToCartInjected: (payload) => dispatch(addToCart(payload)),
+		addToFavInjected: (payload) => dispatch(addToFav(payload))
 	};
 }
 

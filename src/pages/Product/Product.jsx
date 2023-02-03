@@ -2,14 +2,13 @@ import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import products from '../../utils/products.json';
 import { connect } from 'react-redux';
-import { addToCart } from '../../redux/action/cart';
+import { addToCart } from '../../redux/cart/cartAction';
 
 function Product(props) {
 	const productId = props.match.params.productId;
 	const category = props.match.params.categoryName;
 	const items = products[category].items;
 	const product = items.find((p) => p.id === +productId);
-	console.log(product);
 
 	return (
 		<Layout>

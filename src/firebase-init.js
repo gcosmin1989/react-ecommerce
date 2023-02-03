@@ -17,7 +17,6 @@ export const signInWithGoogle = () => {
 			localStorage.setItem('name', name);
 			localStorage.setItem('email', email);
 			localStorage.setItem('profilePic', profilePic);
-			console.log(name);
 			window.location.href = '/';
 		})
 		.catch((error) => {
