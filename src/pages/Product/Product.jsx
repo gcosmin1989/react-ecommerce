@@ -3,6 +3,8 @@ import Layout from '../../components/Layout/Layout';
 import products from '../../utils/products.json';
 import { connect } from 'react-redux';
 import { addToCart } from '../../redux/cart/cartAction';
+import { addToFav } from '../../redux/fav/favAction';
+import './Product.css';
 
 function Product(props) {
 	const productId = props.match.params.productId;
@@ -12,30 +14,37 @@ function Product(props) {
 
 	return (
 		<Layout>
-			<div className="container-fluid container-min-max-width product-page ol-4 d-flex flex-column align-items-center mt-5">
+			<div className="container mb-5">
 				<h1 className="my-5 h2">{product.name}</h1>
 				<div className="product-info d-flex">
-					<div className="image-wrapper d-flex mr-5">
+					<div>
 						<img src={product.image} alt="" />
 					</div>
-					<div className="product-details p-5">
-						<p className="h3 text-danger">
+					<div className="container-fluid p-5">
+						<p className="h3">
 							{product.price} {product.currency}
 						</p>
-
-						<p>
-							<b>Color</b>: {product.colour}
-						</p>
-						<p>
-							<b>Material</b>: {product.material}
-						</p>
-						<p>
-							<b>Brand</b>: {product.brand}
-						</p>
-						<p className="font-weight-bold mb-1">
-							<b>Descriere</b>
-						</p>
-						<p className="text-wrap">{product.description}</p>
+						<div>
+							<div>
+								<p>
+									<b>Color</b>: {product.colour}
+								</p>
+							</div>
+							<div>
+								<p>
+									<b>Material</b>: {product.material}
+								</p>
+							</div>
+							<div>
+								<p>
+									<b>Brand</b>: {product.brand}
+								</p>
+							</div>
+							<p className="font-weight-bold mb-1">
+								<b>Descriere:</b>
+							</p>
+							<p className="text-wrap">{product.description}</p>
+						</div>
 						<button
 							className="btn btn-dark mb-4 w-75 font-weight-bold "
 							onClick={() => {
@@ -53,6 +62,23 @@ function Product(props) {
 						>
 							Adauga in cos
 						</button>
+						<button
+							className="btn btn-secondary mb-4 w-75 font-weight-bold "
+							onClick={() => {
+								props.addToFav({
+									product: {
+										id: productId,
+										name: product.name,
+										price: product.price,
+										currency: product.currency,
+										image: product.image,
+										quantity: product.quantity
+									}
+								});
+							}}
+						>
+							Adauga la Favorite
+						</button>
 					</div>
 				</div>
 			</div>
@@ -62,7 +88,8 @@ function Product(props) {
 
 function mapDispatchToProps(dispatch) {
 	return {
-		addToCart: (payload) => dispatch(addToCart(payload))
+		addToCart: (payload) => dispatch(addToCart(payload)),
+		addToFav: (payload) => dispatch(addToFav(payload))
 	};
 }
 

@@ -12,11 +12,7 @@ class Category extends Component {
 			<Layout>
 				<div className="container">
 					<div className="row">
-						{data ? (
-							data.items.map((item) => <ProductItem key={item.id} product={item} category={category} />)
-						) : (
-							<h1>No Product</h1>
-						)}
+						{data.items.map((item) => <ProductItem key={item.id} product={item} category={category} />)}
 					</div>
 				</div>
 			</Layout>

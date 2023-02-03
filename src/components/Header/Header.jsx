@@ -27,12 +27,13 @@ function Header(props) {
 				)}
 			</div>
 			<div>
+				<p>Cos de cumparaturi</p>
 				<Link to="/cart">
 					<ShoppingCart />
 				</Link>
 				<p>{numberOfProductsInCart}</p>
-			</div>
-			<div>
+
+				<p>Produse Favorite</p>
 				<Link to="/fav">
 					<Favorite />
 				</Link>

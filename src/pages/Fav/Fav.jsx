@@ -10,12 +10,11 @@ function Fav(props) {
 
 	return (
 		<Layout>
-			<div className="cart-page container-fluid container-min-max-width
-                d-flex flex-column justify-content-center align-items-center">
+			<div className="cart-page container p-4">
 				{products.length ? (
 					<div className="w-100">
 						<div className="d-flex justify-content-between text-center h4 text-bold">
-							<p className="w-25">Produse</p>
+							<p className="w-25">Produse Favorite</p>
 						</div>
 						{products.map((product) => {
 							return (
