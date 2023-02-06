@@ -7,6 +7,7 @@ import React from 'react';
 import { signOut } from '../../firebase-init';
 import { connect } from 'react-redux';
 
+
 function Header(props) {
 	const { numberOfProductsInCart, numberOfProductsInFav } = props;
 	return (
@@ -26,20 +27,29 @@ function Header(props) {
 					<Link to="/login">LogIn</Link>
 				)}
 			</div>
-			<div>
+			<div></div>
+	<div className="d-flex justify-content-end">
+			<div className='p-2'>
 				<p>Cos de cumparaturi</p>
 				<Link to="/cart">
 					<ShoppingCart />
 				</Link>
 				<p>{numberOfProductsInCart}</p>
+			
+				</div>
 
-				<p>Produse Favorite</p>
-				<Link to="/fav">
-					<Favorite />
-				</Link>
-				<p>{numberOfProductsInFav}</p>
-			</div>
+		<div className='p-2'>
+	
+		
+		<p>Produse Favorite</p>
+		<Link to="/fav">
+			<Favorite />
+		</Link>
+		<p>{numberOfProductsInFav}</p>
 		</div>
+
+</div>
+</div>
 	);
 }
 
